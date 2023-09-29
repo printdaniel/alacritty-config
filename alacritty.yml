@@ -445,35 +445,46 @@ selection:
 ##########
 ### themes
 ##########
+# Catppuccino theme scheme for Alacritty
 
-#Colors (One Dark) source https://github.com/eendroroy/alacritty-theme
 colors:
-  # Default colors
   primary:
-    background: "0x1e2127"
-    foreground: "0xabb2bf"
+    background: '#1E1E2E'
+    foreground: '0xd6d6d6'
 
-  # Normal colors
+  cursor:
+    text: '#CDD6F4'
+    cursor: '#D9D9D9'
+
   normal:
-    black: "0x1e2127"
-    red: "0xe06c75"
-    green: "0x98c379"
-    yellow: "0xd19a66"
-    blue: "0x61afef"
-    magenta: "0xc678dd"
-    cyan: "0x56b6c2"
-    white: "0xabb2bf"
+    black: '#181A1F'
+    red: '#E86671'
+    green: '#98C379'
+    yellow: '#E5C07B'
+    blue: '#61AFEF'
+    magenta: '#C678DD'
+    cyan: '#54AFBC'
+    white: '#ABB2BF'
 
-  # Bright colors
   bright:
-    black: "0x5c6370"
-    red: "0xe06c75"
-    green: "0x98c379"
-    yellow: "0xd19a66"
-    blue: "0x61afef"
-    magenta: "0xc678dd"
-    cyan: "0x56b6c2"
-    white: "0xffffff"
+    black: '#5C6370'
+    red: '#E86671'
+    green: '#98C379'
+    yellow: '#E5C07B'
+    blue: '#61AFEF'
+    magenta: '#C678DD'
+    cyan: '#54AFBC'
+    white: '0xf7f7f7'
+
+  dim:
+    black: '#5C6370'
+    red: '0x74423f'
+    green: '#98C379'
+    yellow: '#E5C07B'
+    blue: '#61AFEF'
+    magenta: '0x6e4962'
+    cyan: '0x5c8482'
+    white: '0x828282'
 
 # Startup directory
 #
